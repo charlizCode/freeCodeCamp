@@ -1,0 +1,45 @@
+#main {
+  font-family : system-ui;
+}
+
+#title {
+  font-size : 4rem;
+}
+
+.bg-light {
+  background : #dfe3ee;
+  margin:2rem;
+  padding: 2em;
+  border-radius: 70px;
+}
+
+.text_center {
+  text-align : center;
+}
+
+#img_div {
+  
+   
+    width: auto;
+}
+
+#img {
+ display : block;
+ max-width:500px;
+ width : 50%;
+ margin : auto;
+  border-radius: 25px;
+}
+
+
+.section_margin {
+  margin : auto auto 70px 70px;
+}
+
+#tribute-info {
+   margin: auto 35rem; 
+}
+
+#tribute-link {
+  color: red;
+}

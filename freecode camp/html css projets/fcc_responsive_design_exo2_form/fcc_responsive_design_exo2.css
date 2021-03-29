@@ -1,0 +1,90 @@
+/*gobal  */
+
+body {
+  background-color: silver;
+  background-image: url("https://www.world-lolo.com/images/uploads/image.num1311849185.of.world-lolo.com.jpg");
+  background-position: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+p{
+  font-size: 1.3rem;
+}
+
+#title {
+   
+    margin :2rem;
+
+  }
+
+.Title_head {
+  font-size : 3rem;
+}
+
+#description {
+  font-size: 1rem;
+}
+  
+  .textcenter {
+    text-align : center;
+  }
+
+  .text_form {
+  width: 100%;
+  border-radius: 5px;
+
+  }
+
+.italic {
+  font-style: italic;
+  font-size:medium;
+}
+  .box {
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    background: #0080ff91;
+ 
+    border-radius: 15px;
+  }
+
+/* form*/
+
+
+  #survey_form{
+      padding:0.5em;
+      width: auto;
+
+
+
+  }
+
+  .form-input {
+
+  }
+
+
+  #submit {
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 1em;
+  }
+
+  #dropdown {
+
+  }
+
+
+  #name-label {
+
+  }
+
+  #email-label {
+
+  }
+
+  #number {
+
+  }

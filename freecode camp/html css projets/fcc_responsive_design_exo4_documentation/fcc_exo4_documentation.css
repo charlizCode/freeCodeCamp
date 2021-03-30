@@ -50,7 +50,7 @@ li {
 #navbar {
     height: 200px;
     top:0;
-    
+  margin: 10px 10px;
     overflow: scroll;
     border: 2px solid black
     

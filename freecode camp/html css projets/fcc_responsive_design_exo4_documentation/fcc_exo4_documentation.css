@@ -1,25 +1,11 @@
 body {
 box-sizing: border-box;
-background-color: lawngreen;
+background-color: rgb(255, 255, 255);
 }
 
-
-
-
-
-#navbar {
-    width : 400px;
-    height: 100%;
-    position : fixed;
-    top:0;
-    left:0;
-    
-    border: 2px solid black
-    
-    
-}
 code {
-    background-color: gray;
+
+    background-color: rgba(128, 128, 128, 0.568);
     padding : 20px;
     width:60%;
     white-space: pre-line;
@@ -32,39 +18,15 @@ word-break: normal;
     border-radius: 5px;
 }
 
-#navbar__bloc {
-        width: 100%;
-        height: 100%;
-        display : flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-
-    
-}
-
-.navbar__link {
-width: 80%;
-border-radius: 30px;
- margin: 10px 5px;
-text-decoration: none;
-color: black;
-text-align: center;
-background-color: blanchedalmond;
-height : 70px;
-line-height: 70px;;
 
 
 
 
-
-}
 
 #main-doc {
- background-color: blue; 
    height : auto;
    border: 2px solid black;
-   margin : 0px 10px 0px 410px;
+   margin : 0px 10px 0px 10px;
 }
 
 .main-section {
@@ -78,4 +40,73 @@ line-height: 70px;;
 
 li {
     margin : 10px;
+}
+#Javascript_Documentation {
+    font-size: 16px;
+    font-weight: 499;
+    text-align: center;
+}
+
+#navbar {
+    height: 200px;
+    top:0;
+    
+    overflow: scroll;
+    border: 2px solid black
+    
+    
+}
+
+#navbar__bloc {
+    width: auto;
+    height: 100px;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+     
+.navbar__link {
+width: 80%;
+border-radius: 10px;
+margin: 10px 5px;
+text-decoration: none;
+color: black;
+text-align: center;
+background-color: blanchedalmond;
+height : 70px;
+line-height: 70px;;
+}
+
+
+
+@media screen and (min-width:810px) {
+
+    #Javascript_Documentation {
+        font-size: 2rem;
+        font-weight: 499;
+        text-align: center;
+    }
+    
+#navbar {
+    width : 400px;
+    height: 100%;
+    position : fixed;
+    top:0;
+    left:0;
+    
+    border: 2px solid black
+    
+    
+}
+
+
+    #main-doc {
+        margin : 0px 10px 0px 410px;
+     }
+     
+
 }

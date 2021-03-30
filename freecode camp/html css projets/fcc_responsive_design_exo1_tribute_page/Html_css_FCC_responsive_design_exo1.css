@@ -6,6 +6,10 @@
   font-size : 4rem;
 }
 
+#img-caption {
+  
+}
+
 .bg-light {
   background : #dfe3ee;
   margin:2rem;
@@ -17,13 +21,13 @@
   text-align : center;
 }
 
-#img_div {
+#img-div {
   
    
     width: auto;
 }
 
-#img {
+#image {
  display : block;
  max-width:500px;
  width : 50%;

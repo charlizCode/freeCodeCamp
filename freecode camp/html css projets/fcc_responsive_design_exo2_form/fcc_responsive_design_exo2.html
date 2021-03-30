@@ -1,33 +1,43 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
 <html>
-  <main class="main">
+  <main>
     <head>
       <title> Survey for the freecodecamp website</title>
       <meta charteset="UTF-8">
       <link rel="stylesheet" href="fcc_responsive_design_exo2.css"/>
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
     </head>
   </main>
   <header  >
     <h1 id="title" class="textcenter  title_head"> Free Code Camp survey form </h1>
-    <p  class="textcenter" id=' description'> Thank you for taking the time to help us improve our plateform </p>
+    <p  class="textcenter" id='description'> Thank you for taking the time to help us improve our plateform </p>
   </header>
   
 
   
       <div  class="box">
     <!-- info box -->
-      <form action="" id="survey_form">
+      <form action="" id="survey-form">
         <div>
-          <p> Enter your name</p>
-          <input class="text_form form-input" type="text" name="name" id="name_label"  placeholder="Enter your name"  required >
+          <label id="name-label"> Enter your name </label>
+          <input class="text_form form-input" type="text" name="name" id="name"  placeholder="Enter your name"  required >
         </div>
         <div>
-            <p>Enter your email adress:</p>
-          <input class="text_form form-input" type="email" name="email" id="email-label" placeholder="Entrer email adress" required >
+          <label id="email-label">Enter your email adress:</label>
+          <input class="text_form form-input" type="email" name="email" id="email" placeholder="Entrer email adress" required >
         </div>
         <div>
-            <p>Enter your age (optionnal) :</p>
+            <label id="number-label">Enter your age (optionnal) :</label>
           <input class="text_form form-input" type="number" name="age-label" id="number" min="0" max="200" placeholder="enter your age">
         </div>
         <div>
@@ -76,7 +86,7 @@
     <!-- checkbox-->
     <div>
       <div>
-      <p> What would you like to see improve? <span class="italic">(check all that apply)</span></p>
+      <p> What would you like to see improve? (check all that apply)</p>
           <input type="checkbox" name="improve" id="frontEnd" value="frontEnd" required >    
           <label for="frontEnd" > Front-End project</label>   
       </div>
@@ -131,7 +141,7 @@
     
     <!-- button-->
     <div>
-     <input class="text_form" type="button" name="submit" id="submit" value="submit" required >   
+      <button class="text_form" type="submit" value="submit" id="submit"> SUBMIT </button>
     </div>
   
   

@@ -1,0 +1,4 @@
+- it took me 2 day to build this
+- using form tag
+- using flexbox
+- more css option used

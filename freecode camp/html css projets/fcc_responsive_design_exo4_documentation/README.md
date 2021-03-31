@@ -1,0 +1,4 @@
+- it took me 4 day to build this
+- learning how to organised my html file, how to prepare the work to facilitate the html and css
+- learning more things on css and the differents options
+- 

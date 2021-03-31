@@ -1,0 +1,5 @@
+- it took me 3 day to build this
+- learning how to structure and organise the html to facilitate the css
+- using more flexbox, trying to really understand it
+- using positon fixed and how to manage it
+- 

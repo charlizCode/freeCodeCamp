@@ -1,0 +1,5 @@
+-Starting learning html and basic CSS
+-using html tag , id, class and basic css option
+-make the image responsive
+-usign list
+- it took me 1 day to build this !

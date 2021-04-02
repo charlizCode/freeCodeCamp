@@ -1,22 +1,49 @@
 .main {
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     justify-content: center;
+    height: 100vh;
 }
 
-nav {
+.main_nav {
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
-    font-weight: 600;
+    height: 100vh;
+
+}
+
+.section_nav {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section {
+    display:flex;
+    flex-direction: column;
+    align-items:space-around;
+    justify-content: space-between;
+  height: 100vh;  
+}
+
+#img {
+    size : 100px;
+    text-align: center;
+    border-radius : 50%;
+    max-height: 150px;
+    max-width: 150px;
 }
 
 a {
     text-decoration: none;
     color: black;
+    font-size: 2rem;
+    font-weight: 600;
 }
 .selective_section::before {
 
@@ -30,6 +57,8 @@ position: absolute;
     transform: skew(20deg);
 }
 
+
+
 .selective_section {
     position: relative;
     width:100%;
@@ -38,10 +67,5 @@ position: absolute;
    transform: skewY(3deg);
 }
 
-h2 {
-}
 
-.selective_section__in {
-    margin : auto auto;
-    text-align: center;
-}
+

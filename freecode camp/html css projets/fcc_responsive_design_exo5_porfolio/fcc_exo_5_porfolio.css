@@ -1,0 +1,47 @@
+.main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.selective_section::before {
+
+position: absolute;
+	content: "";
+	width: 60%;
+	height: 100%;
+	background-color: #7CCBF2;
+	z-index: -10;
+    left: 20%;
+    transform: skew(20deg);
+}
+
+.selective_section {
+    position: relative;
+    width:100%;
+    text-align: center;
+   margin: 1rem auto;
+   transform: skewY(3deg);
+}
+
+h2 {
+}
+
+.selective_section__in {
+    margin : auto auto;
+    text-align: center;
+}

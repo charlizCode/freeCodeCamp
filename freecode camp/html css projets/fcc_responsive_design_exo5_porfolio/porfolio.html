@@ -6,21 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="porfolio.css">
+    <link rel="stylesheet" href="-debug.css">
 </head>
 <body>
     <nav id="navbar">
-        <a href="about">About</a>
-        <a href="projects">Projects</a>
-        <a href="contact">Contact</a>
+        <a href="#welcome-section">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#profile-link">Contact</a>
     </nav>
     <main>
-    <section id="welcome-section"><h1>Welcome</h1></section>
+    <section id="welcome-section">
+        <h1>Welcome</h1>
+        <p id="welcome-section__p">I'm Charlie, i'm currently learning web development to become a full stack developper</p>
+    </section>
 <section id="projects">
-    <h2 id="project-title"></h2>
+    <h2 id="project-title">My projects</h2>
+    <div id=projects__div>
+        <a href="https://codepen.io/charliz/pen/jOVJoPM" target="_blank" class="project project-tile">
+            <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png" alt="project">
+            <p class="project-title">
+              <span class="code">&lt;</span>
+             Tribute page 
+              <span class="code">/&gt;</span>
+            </p>
+          </a> 
+          <a href="https://codepen.io/charliz/pen/WNoBjmo" target="_blank" class="project project-tile">
+            <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png" alt="project">
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Survey form
+              <span class="code">/&gt;</span>
+            </p>
+          </a> 
+    </div>
 </section>
 </main>
 <footer>
-    <a id="profile-link" href="#"></a>
+    <a id="profile-link" href="https://github.com/charlizCode" target="_blank">github</a>
+    <p>Me contacter</p>
 </footer>
 </body>
 
